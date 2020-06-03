@@ -1,0 +1,494 @@
+{
+  "pages": [{
+      "path": "pages/index",
+      "config": {
+        "navigationBarTitleText": "银元宝",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark",
+        "backgroundColor": "#fff",
+        "usingComponents": {
+          "van-popup": "../static/vant/popup/index",
+          "van-toast": "../static/vant/toast/index",
+          "van-tree-select": "../static/vant/tree-select/index"
+        }
+      }
+    },
+    {
+      "path": "pages/tabbar",
+      "config": {
+        "navigationBarTitleText": "",
+        "usingComponents": {
+          "van-tabbar": "../static/vant/tabbar/index",
+          "van-tabbar-item": "../static/vant/tabbar-item/index"
+        }
+      }
+    },
+    "pages/counter",
+    {
+      "path": "packageA/logs",
+      "subPackage": true,
+      "config": {
+        "navigationBarTitleText": "查看启动日志"
+      }
+    },
+    {
+      "path": "pages/customer",
+      "config": {
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "dark",
+        "backgroundColor": "#fff",
+        "navigationBarTitleText": "我的客户",
+        "usingComponents": {
+          "van-popup": "../static/vant/popup/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/report",
+      "config": {
+        "navigationBarTitleText": "推荐",
+        "usingComponents": {
+          "van-popup": "../static/vant/popup/index",
+          "van-picker": "../static/vant/picker/index",
+          "van-datetime-picker": "../static/vant/datetime-picker/index",
+          "i-switch": "../static/iview/switch/index",
+          "van-toast": "../static/vant/toast/index",
+          "van-dialog": "../static/vant/dialog/index"
+        }
+      }
+    },
+    {
+      "path": "pages/reportResult",
+      "config": {
+        "navigationBarTitleText": "推荐",
+        "usingComponents": {
+          "van-popup": "../static/vant/popup/index",
+          "van-picker": "../static/vant/picker/index",
+          "van-datetime-picker": "../static/vant/datetime-picker/index",
+          "i-switch": "../static/iview/switch/index",
+          "van-toast": "../static/vant/toast/index",
+          "van-dialog": "../static/vant/dialog/index"
+        }
+      }
+    },
+    {
+      "path": "pages/message",
+      "config": {
+        "navigationBarTitleText": "我的消息",
+        "usingComponents": {
+          "van-tab": "../static/vant/tab/index",
+          "van-tabs": "../static/vant/tabs/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/mine",
+      "config": {
+        "navigationBarTitleText": "我的",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectDetail",
+      "config": {
+        "navigationBarTitleText": "楼盘详情",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index",
+          "van-dialog": "../static/vant/dialog/index"
+        }
+      }
+    },
+    {
+      "path": "pages/customerDetail",
+      "config": {
+        "navigationBarTitleText": "客户详情",
+        "usingComponents": {
+          "van-tag": "../static/vant/tag/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/customerStatistics",
+      "config": {
+        "navigationBarTitleText": "客户统计",
+        "usingComponents": {
+          "van-popup": "../static/vant/popup/index",
+          "van-picker": "../static/vant/picker/index",
+          "van-datetime-picker": "../static/vant/datetime-picker/index"
+        }
+      }
+    },
+    {
+      "path": "pages/login",
+      "config": {
+        "navigationBarTitleText": "注册/登录",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/loginCode",
+      "config": {
+        "navigationBarTitleText": "验证码",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/loginPwd",
+      "config": {
+        "navigationBarTitleText": "密码",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/address",
+      "config": {
+        "navigationBarTitleText": "城市切换",
+        "usingComponents": {
+          "van-loading": "../static/vant/loading/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/companyList",
+      "config": {
+        "navigationBarTitleText": "渠道管理选择",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/storeList",
+      "config": {
+        "navigationBarTitleText": "渠道分管中心选择",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/customerChange",
+      "config": {
+        "navigationBarTitleText": "客户变更信息",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/customerSearch",
+      "config": {
+        "navigationBarTitleText": "客户搜索",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectHouseType",
+      "config": {
+        "navigationBarTitleText": "户型列表",
+        "usingComponents": {
+          "van-tab": "../static/vant/tab/index",
+          "van-tabs": "../static/vant/tabs/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectDynamic",
+      "config": {
+        "navigationBarTitleText": "楼盘动态",
+        "usingComponents": {
+          "van-tab": "../static/vant/tab/index",
+          "van-tabs": "../static/vant/tabs/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectDynamicDetail",
+      "config": {
+        "navigationBarTitleText": "动态详情",
+        "usingComponents": {
+          "van-tab": "../static/vant/tab/index",
+          "van-tabs": "../static/vant/tabs/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectPhoto",
+      "config": {
+        "navigationBarTitleText": "楼盘相册",
+        "usingComponents": {
+          "van-tab": "../static/vant/tab/index",
+          "van-tabs": "../static/vant/tabs/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectList",
+      "config": {
+        "navigationBarTitleText": "楼盘搜索",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectListAuth",
+      "config": {
+        "navigationBarTitleText": "楼盘搜索",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/userCheck",
+      "config": {
+        "navigationBarTitleText": "渠道管理设置",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index",
+          "van-dialog": "../static/vant/dialog/index"
+        }
+      }
+    },
+    {
+      "path": "pages/groupList",
+      "config": {
+        "navigationBarTitleText": "我的团队",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+
+    {
+      "path": "pages/groupLists",
+      "config": {
+        "navigationBarTitleText": "我的团队"
+      }
+    },
+
+    {
+      "path": "pages/groupMember",
+      "config": {
+        "navigationBarTitleText": "我的团队",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/groupCheck",
+      "config": {
+        "navigationBarTitleText": "员工审核",
+        "usingComponents": {
+          " ": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/modifyPhone",
+      "config": {
+        "navigationBarTitleText": "变更手机号",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/modifyStore",
+      "config": {
+        "navigationBarTitleText": "变更渠道分管中心",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/modifyUser",
+      "config": {
+        "navigationBarTitleText": "个人资料",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/modifyInfo",
+      "config": {
+        "navigationBarTitleText": "变更资料",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/projectLocation",
+      "config": {
+        "navigationBarTitleText": "位置周边",
+        "usingComponents": {
+          "van-tab": "../static/vant/tab/index",
+          "van-tabs": "../static/vant/tabs/index",
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/messageDetail",
+      "config": {
+        "navigationBarTitleText": "消息详情",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/transition",
+      "config": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/groupLeave",
+      "config": {
+        "navigationBarTitleText": "员工离职",
+        "enablePullDownRefresh": true,
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/groupMove",
+      "config": {
+        "navigationBarTitleText": "客户转移",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/groupCheckResult",
+      "config": {
+        "navigationBarTitleText": "员工审核",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/modifyPhoneResult",
+      "config": {
+        "navigationBarTitleText": "变更手机号",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/groupHandle",
+      "config": {
+        "navigationBarTitleText": "员工状态处理",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index"
+        }
+      }
+    },
+    {
+      "path": "pages/setting",
+      "config": {
+        "navigationBarTitleText": "设置",
+        "usingComponents": {
+          "van-toast": "../static/vant/toast/index",
+          "van-dialog": "../static/vant/dialog/index"
+        }
+      }
+    },
+    {
+      "path": "pages/about",
+      "config": {
+        "navigationBarTitleText": "关于我们"
+      }
+    },
+    {
+      "path": "pages/webview",
+      "config": {
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/channelCategory",
+      "config": {
+        "navigationBarTitleText": "渠道类别"
+      }
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2D5AD6",
+    "navigationBarTitleText": "银元宝",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#A5A7A9",
+    "backgroundColor": "#FEFEFE",
+    "selectedColor": "#1F293F",
+    "borderStyle": "white",
+
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/index",
+        "iconPath": "static/tabs/tabbar1.png",
+        "selectedIconPath": "static/tabs/tabbar01.png"
+      },
+      {
+        "text": "客户",
+        "pagePath": "pages/customer",
+        "iconPath": "static/tabs/tabbar2.png",
+        "selectedIconPath": "static/tabs/tabbar02.png"
+      },
+      {
+        "text": "推荐",
+        "pagePath": "pages/report",
+        "iconPath": "static/tabs/tabbar3.png",
+        "selectedIconPath": "static/tabs/tabbar03.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message",
+        "iconPath": "static/tabs/tabbar4.png",
+        "selectedIconPath": "static/tabs/tabbar04.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine",
+        "iconPath": "static/tabs/tabbar5.png",
+        "selectedIconPath": "static/tabs/tabbar05.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于系统数据推送"
+    }
+  },
+  "navigateToMiniProgramAppIdList": ["wx5d826cbcfe9dc948", "wx995a29b8261e450d"]
+}
